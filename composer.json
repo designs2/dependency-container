@@ -1,5 +1,5 @@
 {
-  "name": "contao-community-alliance/dependency-container",
+  "name": "designs2/dependency-container",
   "description": "Dependency container based on pimple for Contao open source cms.",
   "keywords": ["contao", "dependency", "container", "di", "injection"],
   "type": "contao-module",
@@ -23,13 +23,13 @@
     "issues": "https://github.com/contao-community-alliance/dependency-container/issues",
     "wiki": "https://github.com/contao-community-alliance/dependency-container/wiki",
     "irc": "irc://irc.freenode.org/contao.dev",
-    "source": "https://github.com/contao-community-alliance/dependency-container"
+    "source": "https://github.com/designs2/dependency-container"
   },
   "require": {
     "php": ">=5.3",
-    "contao/core": ">=3.2,<3.6-dev",
-    "contao-community-alliance/composer-plugin": "~2.0",
-    "pimple/pimple": "~1.0"
+    "contao/core": ">=3.2,<4",
+    "contao-community-alliance/composer-plugin": "*",
+    "pimple/pimple": "*"
   },
   "require-dev": {
     "phpcq/all-tasks": "~1.0"
